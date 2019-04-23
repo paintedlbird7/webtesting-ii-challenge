@@ -31,13 +31,31 @@ class ButtonComp extends React.Component {
         <button
           onClick={e => this.props.updateCount(e, this.state.buttonCount + 1)}
         >
-          Increment +
+          {/* Increment  */}
+          Hit +
         </button>
+        
         <button
           onClick={e => this.props.updateCount(e, this.state.buttonCount - 1)}
         >
-          Decrement -
+          {/* Decrement  */}
+          Foul -
         </button>
+
+        <button
+          onClick={e => this.props.updateCount(e, this.state.buttonCount - 1)}
+        >
+          {/* Decrement  */}
+          Strike -
+        </button>
+
+        <button
+          onClick={e => this.props.updateCount(e, this.state.buttonCount - 1)}
+        >
+          {/* Decrement  */}
+          Reset
+        </button>
+
       </div>
     );
   }

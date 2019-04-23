@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Counters FTW 🔥</h1>
+        <h1>Baseball Counters 🔥</h1>
         <Counter count={this.state.count} title="Count" />
         <ButtonComp updateCount={this.updateCount} count={this.state.count} />
         <Counter count={this.state.count * 3} title="Count * 3" />
@@ -47,13 +47,5 @@ ReactDOM.render(<App />, rootElement);
 
 
 
-// import React, { Component } from 'react';
-
-// class App extends Component {
-//   render() {
-//   return 
-//     <div>Sanity</div>
-//   };
-// }
 
 export default App;
